@@ -1,1 +1,12 @@
-<p>search-movie works!</p>
+
+<h1>{{ title }}</h1>
+<form [formGroup]="loginForm" (ngSubmit)="loginUser()">
+    <div>
+      <input  type="text" placeholder="enter name" formControlName="user" >
+    </div>
+    <div>
+      <input  type="password" placeholder="enter password" formControlName="password" >
+    </div>
+    <button >Login</button>
+  </form>
+  
