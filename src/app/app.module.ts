@@ -1,17 +1,18 @@
+
 import { NgModule } from '@angular/core';
-import { ReactiveFormsModule } from '@angular/forms';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
-import { SearchMovieComponent } from './search-movie/search-movie.component';
+import { UserSettingsForm } from './user-setting-form/user-setting.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    SearchMovieComponent
+    UserSettingsForm,
   ],
   imports: [
-    BrowserModule, ReactiveFormsModule
+    BrowserModule, FormsModule, 
   ],
   providers: [],
   bootstrap: [AppComponent]

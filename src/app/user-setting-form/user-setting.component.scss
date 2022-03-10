@@ -1,0 +1,8 @@
+h1 {
+    font-size:20px;
+    color: burlywood;
+}
+
+.ng-invalid:not(form).ng-touched {
+    border: 1px solid red;
+}
